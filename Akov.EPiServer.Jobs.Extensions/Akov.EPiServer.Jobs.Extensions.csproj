@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Oleksandr Kovanev</Authors>
+    <Company>Oleksandr Kovanev</Company>
+    <Description>An extension providing some convenience while logging EPiServer jobs, including progress.</Description>
+    <Copyright>Oleksandr Kovanev</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/akovanev/EPiServer.Jobs.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/akovanev/EPiServer.Jobs.Extensions.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EPiServer;Jobs</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPiServer.CMS.Core" Version="11.14.0" />
+    <PackageReference Include="System.Reactive" Version="4.4.1" />
+  </ItemGroup>
+
+</Project>
